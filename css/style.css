@@ -40,7 +40,7 @@ h2 {
 .wrapper {
 
   background-color: #849d8f;
-  background-image: url("../img/ice-cream-white.png");
+  background-image: url("../img/bg-side.png");
   background-repeat: no-repeat;
   background-position: top center;
 
@@ -56,11 +56,11 @@ h2 {
 }
 
 .wrapper::before {
-  background-image: url("../img/ice-cream-white2.png");
+  background-image: url("../img/bg-slide2.png");
 }
 
 .wrapper::after {
-  background-image: url("../img/ice-cream-white3.png");
+  background-image: url("../img/bg-slide3.png");
 }
 
 
@@ -771,17 +771,17 @@ textarea:focus {
 
 #btn-1:checked ~ .wrapper {
   background-color: #849d8f;
-  background-image: url("../img/ice-cream-white.png");
+  background-image: url("../img/bg-slide1.png");
 }
 
 #btn-2:checked ~ .wrapper {
   background-color: #8a97a7;
-  background-image: url("../img/ice-cream-white2.png");
+  background-image: url("../img/bg-slide2.png");
 }
 
 #btn-3:checked ~ .wrapper {
   background-color: #9d8b84;
-  background-image: url("../img/ice-cream-white3.png");
+  background-image: url("../img/bg-slide3.png");
 }
 
 /*=========features=========*/
@@ -1086,7 +1086,7 @@ textarea:focus {
 }
 
 .ice-cream::before {
-  background: url(../img/about-ice-cream.png) no-repeat;
+  background: url(../img/about-ice-crea.png) no-repeat;
   background-position: 0 0;
 }
 
